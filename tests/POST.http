@@ -1,0 +1,30 @@
+### Cadastra Usuário
+POST http://despachante.com.test/api/user
+content-type: application/json
+Accept: application/json
+
+{
+    "name": "Diego Pereira",
+    "email": "diego.pereira@gmail.com",
+    "cpf": "000.000.000-03",
+    "rg": "00000003",
+    "date_of_birth": "22/05/1973",
+    "zip_code": "000.000-011",
+    "address": "Belém",
+    "number": "11",
+    "city": "Belém",
+    "state": "Pará"
+}
+
+### Cadastra Vehicle
+POST http://despachante.com.test/api/users/c/vehicles
+content-type: application/json
+Accept: application/json
+
+{
+    "user": "ec4c4bb3-3703-4acc-b898-3f20c3d8d23d",
+    "license_plate": "AAA9A35",
+    "model": "Jeep Compass",
+    "color": "Prata com teto preto",
+    "type": "SUV"
+}

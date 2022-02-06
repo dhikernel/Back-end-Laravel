@@ -1,0 +1,17 @@
+### Atualiza User
+PUT http://despachante.com.test/api/user/ec4c4bb3-3703-4acc-b898-3f20c3d8d23d
+content-type: application/json
+Accept: application/json
+
+{
+    "name": "Diego San",
+    "email": "diego.pereira@dok.com",
+    "cpf": "000.000.000-07",
+    "rg": "00000005",
+    "date_of_birth": "22/05/1972",
+    "zip_code": "000.000-010",
+    "address": "Ananindeua",
+    "number": "15",
+    "city": "Ananindeua",
+    "state": "Pará"
+}

@@ -1,0 +1,9 @@
+### Delete User
+DELETE http://despachante.com.test/api/user/3
+content-type: application/json
+Accept: application/json
+
+
+### Delete Vehicle
+DELETE http://despachante.com.test/api/users/5/vehicles
+Accept: application/json
