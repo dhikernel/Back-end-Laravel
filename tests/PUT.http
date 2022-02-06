@@ -1,17 +1,18 @@
 ### Atualiza User
-PUT http://despachante.com.test/api/user/ec4c4bb3-3703-4acc-b898-3f20c3d8d23d
-content-type: application/json
+PUT http://despachante.com.test/api/v1/user/ec4c4bb3-3703-4acc-b898-3f20c3d8d23d
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXNwYWNoYW50ZS5jb20udGVzdFwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE2NDQxODgwNjUsIm5iZiI6MTY0NDE4ODA2NSwianRpIjoiNE1TTExaVEZMWnRnallrRyIsInN1YiI6MiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsImlkIjoyLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSJ9.oY48Yt1hxe6gyegK7G8-ld1AVlw8ZPDaOX1hYpqRw-I
 Accept: application/json
 
 {
-    "name": "Diego San",
-    "email": "diego.pereira@dok.com",
-    "cpf": "000.000.000-07",
-    "rg": "00000005",
-    "date_of_birth": "22/05/1972",
-    "zip_code": "000.000-010",
-    "address": "Ananindeua",
-    "number": "15",
+    "name": "Diego Pereira",
+    "email": "diego.san@dok.com",
+    "password": "password"
+    "cpf": "000.000.000-08",
+    "rg": "00000003",
+    "date_of_birth": "22/05/1975",
+    "zip_code": "000.000-011",
+    "address": "Belém",
+    "number": "17",
     "city": "Ananindeua",
-    "state": "Pará"
+    "state": "Para"
 }

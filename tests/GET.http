@@ -1,13 +1,13 @@
 ### Get All Users
-GET http://despachante.com.test/api/user
+GET http://despachante.com.test/api/v1/user
 Accept: application/json
 
 
-### Get User By ID
-GET http://despachante.com.test/api/user/ec4c4bb3-3703-4acc-b898-3f20c3d8d23d
+### Get User By UUID
+GET http://despachante.com.test/api/v1/user/ec4c4bb3-3703-4acc-b898-3f20c3d8d23d
 Accept: application/json
 
 
 ### Get User For Vehicles
-GET http://despachante.com.test/api/users/ec4c4bb3-3703-4acc-b898-3f20c3d8d23d/vehicles
+GET http://despachante.com.test/api/v1/users/ec4c4bb3-3703-4acc-b898-3f20c3d8d23d/vehicles
 Accept: application/json

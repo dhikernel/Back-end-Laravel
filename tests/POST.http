@@ -1,11 +1,13 @@
 ### Cadastra Usuário
-POST http://despachante.com.test/api/user
-content-type: application/json
+POST http://despachante.com.test/api/v1/user
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXNwYWNoYW50ZS5jb20udGVzdFwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE2NDQxODgwNjUsIm5iZiI6MTY0NDE4ODA2NSwianRpIjoiNE1TTExaVEZMWnRnallrRyIsInN1YiI6MiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsImlkIjoyLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSJ9.oY48Yt1hxe6gyegK7G8-ld1AVlw8ZPDaOX1hYpqRw-I
 Accept: application/json
+Content-Type: application/json
 
 {
     "name": "Diego Pereira",
-    "email": "diego.pereira@gmail.com",
+    "email": "diego.pereira@dok.com",
+    "password": "password",
     "cpf": "000.000.000-03",
     "rg": "00000003",
     "date_of_birth": "22/05/1973",
@@ -17,14 +19,15 @@ Accept: application/json
 }
 
 ### Cadastra Vehicle
-POST http://despachante.com.test/api/users/c/vehicles
-content-type: application/json
+POST http://despachante.com.test/api/v1/users/1/vehicles
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9kZXNwYWNoYW50ZS5jb20udGVzdFwvYXBpXC92MVwvbG9naW4iLCJpYXQiOjE2NDQxODgwNjUsIm5iZiI6MTY0NDE4ODA2NSwianRpIjoiNE1TTExaVEZMWnRnallrRyIsInN1YiI6MiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsImlkIjoyLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSJ9.oY48Yt1hxe6gyegK7G8-ld1AVlw8ZPDaOX1hYpqRw-I
 Accept: application/json
+Content-Type: application/json
 
 {
     "user": "ec4c4bb3-3703-4acc-b898-3f20c3d8d23d",
-    "license_plate": "AAA9A35",
-    "model": "Jeep Compass",
+    "license_plate": "AAA9A36",
+    "model": "Jeep Commander",
     "color": "Prata com teto preto",
     "type": "SUV"
 }
