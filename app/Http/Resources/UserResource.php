@@ -22,7 +22,7 @@ class UserResource extends JsonResource
             'email' => $this->email,
             'cpf' => $this->cpf,
             'rg' => $this->rg,
-            'date' => Carbon::make($this->date_of_birth)->format('d-m-Y'),
+            'date' => $this->date_of_birth,
             'zip' => $this->zip_code,
             'address' => $this->address,
             'number' => $this->number,
